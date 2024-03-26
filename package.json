@@ -6,7 +6,16 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "algorithm",
+    "sorting",
+    "visualization",
+    "bubble sort",
+    "quick sort",
+    "merge sort",
+    "sorting algorithms",
+    "algorithm visualization"
+  ],
   "author": "Akshay Patel",
   "license": "ISC",
   "devDependencies": {
