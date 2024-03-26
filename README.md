@@ -21,6 +21,7 @@ console.log(sortedArray); // Output: [1, 2, 3, 5, 8]
 algoVisual.visualizeBubbleSort(unsortedArray, () => {
     console.log('Bubble sort visualization complete.');
 });
+```
 
 ## Available Algorithms
 
