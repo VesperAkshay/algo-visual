@@ -4,7 +4,10 @@ A Node.js module for visualizing various sorting algorithms.
 
 ## Installation
 
-You can install the `algo-visual` package via npm: npm install algo-visual
+You can install the `algo-visual` package via npm:
+```bash
+npm install algo-visual
+```
 
 
 ## Usage
