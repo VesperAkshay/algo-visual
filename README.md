@@ -7,14 +7,14 @@ This package contains a collection of algorithms implemented in JavaScript. It p
 You can install this package via npm. Run the following command in your project directory:
 
 ```bash
-npm install algorithm-package
+npm install algo-visual
 ```
 ## Usage
 
 You can import individual algorithms from the package as follows:
 
 ```javascript
-const algorithms = require('algorithm-package');
+const algorithms = require('algo-visual');
 
 
 const unsortedArray = [3, 1, 4, 1, 5, 9, 2, 6, 5];
