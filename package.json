@@ -1,24 +1,31 @@
 {
   "name": "algo-visual",
   "version": "1.0.4",
-  "description": "A package for visualizing  algorithms",
+  "description": "A package for  algorithms",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "test.js"
   },
   "keywords": [
     "algorithm",
     "sorting",
-    "visualization",
+    "searching",
+    "graph",
+    "dynamic programming",
     "bubble sort",
-    "quick sort",
     "merge sort",
-    "sorting algorithms",
-    "algorithm visualization"
+    "binary search",
+    "linear search",
+    "breadth-first search",
+    "bfs",
+    "depth-first search",
+    "dfs",
+    "fibonacci",
+    "knapsack",
+    "javascript",
+    "npm",
+    "package"
   ],
   "author": "Akshay Patel",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+  "license": "MIT"
 }

@@ -1,46 +1,51 @@
 # algo-visual
 
-A Node.js module for visualizing various sorting algorithms.
+This package contains a collection of algorithms implemented in JavaScript. It provides a set of common algorithms for tasks such as sorting, searching, graph traversal, and dynamic programming.
 
 ## Installation
 
-You can install the `algo-visual` package via npm:
+You can install this package via npm. Run the following command in your project directory:
+
 ```bash
-npm install algo-visual
+npm install algorithm-package
 ```
-
-
 ## Usage
 
+You can import individual algorithms from the package as follows:
+
 ```javascript
-const algoVisual = require('algo-visual');
+const algorithms = require('algorithm-package');
 
-// Sort an array using bubble sort
-const unsortedArray = [5, 3, 8, 1, 2];
-const sortedArray = algoVisual.bubbleSort(unsortedArray);
-console.log(sortedArray); // Output: [1, 2, 3, 5, 8]
 
-// Visualize bubble sort
-algoVisual.visualizeBubbleSort(unsortedArray, () => {
-    console.log('Bubble sort visualization complete.');
-});
+const unsortedArray = [3, 1, 4, 1, 5, 9, 2, 6, 5];
+console.log('Unsorted Array:', unsortedArray);
+const sortedArray = algorithms.bubbleSort(unsortedArray);
+console.log('Sorted Array (Bubble Sort):', sortedArray);
 ```
+# Algorithm Package
 
-## Available Algorithms
+This package includes the following algorithms:
 
-- `bubbleSort(array)`: Sorts an array using the bubble sort algorithm.
-- `quickSort(array)`: Sorts an array using the quick sort algorithm.
-- `mergeSort(array)`: Sorts an array using the merge sort algorithm.
+## Sorting Algorithms:
+- Bubble Sort
+- Merge Sort
 
-## Visualization Functions
+## Searching Algorithms:
+- Binary Search
+- Linear Search
 
-Visualization functions are available for each sorting algorithm. These functions log each step of the sorting process to the console.
+## Graph Algorithms:
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
 
-- `visualizeBubbleSort(array, callback)`: Visualizes the bubble sort algorithm.
-- `visualizeQuickSort(array, callback)`: Visualizes the quick sort algorithm.
-- `visualizeMergeSort(array, callback)`: Visualizes the merge sort algorithm.
+## Dynamic Programming Algorithms:
+- Fibonacci Sequence Calculation
+- Knapsack Problem
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit issues or pull requests.
+Contributions are welcome! If you have implemented a new algorithm or want to improve existing ones, feel free to open a pull request.
 
+## License
+
+This package is open-source and available under the MIT License. You are free to use, modify, and distribute this software in accordance with the terms of the license.
