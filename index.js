@@ -16,6 +16,7 @@ const linearSearch = require('./searching/linearSearch');
 const bfs = require('./graph/bfs');
 const dfs = require('./graph/dfs');
 const dijkstra = require('./graph/dijkstra');
+const prim = require('./graph/prim');
 
 // Dynamic programming algorithms
 const fibonacci = require('./dynamicProgramming/fibonacci');
@@ -38,6 +39,8 @@ module.exports = {
     bfs,
     dfs,
     dijkstra,
+    prim,
+    
 
     // Dynamic programming algorithms
     fibonacci,
