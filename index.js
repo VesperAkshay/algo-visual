@@ -7,6 +7,7 @@ const quickSort = require('./sorting/quickSort');
 const selectionSort = require('./sorting/selectionSort');
 const insertionSort = require('./sorting/insertionSort');
 const heapSort = require('./sorting/heapSort');
+const radixSort = require('./sorting/radixSort');
 
 // Searching algorithms
 const binarySearch = require('./searching/binarySearch');
@@ -30,6 +31,7 @@ module.exports = {
     selectionSort,
     insertionSort,
     heapSort,
+    radixSort,
 
     // Searching algorithms
     binarySearch,
