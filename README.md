@@ -45,6 +45,7 @@ This package includes the following algorithms:
 ## Contributing
 
 Contributions are welcome! If you have implemented a new algorithm or want to improve existing ones, feel free to open a pull request.
+[Github Repo](https://github.com/VesperAkshay/algo-visual)
 
 ## License
 
