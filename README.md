@@ -29,6 +29,7 @@ This package includes the following algorithms:
 ## Sorting Algorithms:
 - Bubble Sort
 - Merge Sort
+- Heap Sort
 
 ## Searching Algorithms:
 - Binary Search
