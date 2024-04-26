@@ -28,7 +28,4 @@
   ],
   "author": "Akshay Patel",
   "license": "MIT"
-  "publishConfig": {
-  "VesperAkshay:registry": "https://npm.pkg.github.com"
-}
 }
